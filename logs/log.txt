@@ -1,0 +1,5 @@
+2025-03-10T12:41:43.110Z  INFO 1 --- [appi-log] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-10T12:41:43.775Z  INFO 1 --- [appi-log] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-10T12:41:43.942Z  INFO 1 --- [appi-log] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-10T12:41:44.124Z  INFO 1 --- [appi-log] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-10T12:41:44.191Z  INFO 1 --- [appi-log] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

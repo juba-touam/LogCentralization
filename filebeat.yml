@@ -1,0 +1,12 @@
+filebeat.inputs:
+  - type: log
+    enabled: true
+    paths:
+      - "/app/logs/log.xml"
+    encoding: utf-8
+    fields:
+      service: "appi-log"
+    fields_under_root: true
+
+output.logstash:
+  hosts: ["logstash:5044"]

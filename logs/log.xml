@@ -1,0 +1,228 @@
+2025-03-13T18:22:07.288Z  INFO 1 --- [appi-log] [main] fr.example.appilog.AppiLogApplication    : Starting AppiLogApplication v1.0.0 using Java 17.0.14 with PID 1 (/opt/appi-log.jar started by root in /opt)
+2025-03-13T18:22:07.355Z  INFO 1 --- [appi-log] [main] fr.example.appilog.AppiLogApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-03-13T18:22:20.466Z  INFO 1 --- [appi-log] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-13T18:22:20.957Z  INFO 1 --- [appi-log] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 195 ms. Found 0 JPA repository interfaces.
+2025-03-13T18:22:56.064Z  INFO 1 --- [appi-log] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-13T18:22:56.238Z  INFO 1 --- [appi-log] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-13T18:22:56.246Z  INFO 1 --- [appi-log] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-13T18:22:56.745Z  INFO 1 --- [appi-log] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-13T18:22:56.762Z  INFO 1 --- [appi-log] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 48542 ms
+2025-03-13T18:23:00.490Z  INFO 1 --- [appi-log] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-13T18:23:03.890Z  INFO 1 --- [appi-log] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@58833798
+2025-03-13T18:23:03.895Z  INFO 1 --- [appi-log] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-13T18:23:04.276Z  INFO 1 --- [appi-log] [main] org.flywaydb.core.FlywayExecutor         : Database: jdbc:postgresql://appi-log-db:5432/postgres (PostgreSQL 15.12)
+2025-03-13T18:23:04.887Z  INFO 1 --- [appi-log] [main] o.f.core.internal.command.DbValidate     : Successfully validated 0 migrations (execution time 00:00.289s)
+2025-03-13T18:23:04.888Z  WARN 1 --- [appi-log] [main] o.f.core.internal.command.DbValidate     : No migrations found. Are your locations set up correctly?
+2025-03-13T18:23:05.058Z  INFO 1 --- [appi-log] [main] o.f.core.internal.command.DbMigrate      : Current version of schema "public": << Empty Schema >>
+2025-03-13T18:23:05.147Z  INFO 1 --- [appi-log] [main] o.f.core.internal.command.DbMigrate      : Schema "public" is up to date. No migration necessary.
+2025-03-13T18:23:07.366Z  INFO 1 --- [appi-log] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-13T18:23:08.183Z  INFO 1 --- [appi-log] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-13T18:23:08.646Z  INFO 1 --- [appi-log] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-13T18:23:12.218Z  INFO 1 --- [appi-log] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-13T18:23:12.779Z  WARN 1 --- [appi-log] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-13T18:23:12.912Z  INFO 1 --- [appi-log] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 15.12
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-13T18:23:16.939Z  INFO 1 --- [appi-log] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-13T18:23:17.019Z  INFO 1 --- [appi-log] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-13T18:23:18.192Z  WARN 1 --- [appi-log] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-13T18:23:23.492Z  INFO 1 --- [appi-log] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-03-13T18:23:23.677Z  INFO 1 --- [appi-log] [main] fr.example.appilog.AppiLogApplication    : Started AppiLogApplication in 91.818 seconds (process running for 109.075)
+2025-03-13T18:23:23.677Z  INFO 1 --- [appi-log] [main] fr.example.appilog.AppiLogApplication    : Started AppiLogApplication in 91.818 seconds (process running for 109.075)
+2025-03-13T18:23:23.677Z  INFO 1 --- [appi-log] [main] fr.example.appilog.AppiLogApplication    : Started AppiLogApplication in 91.818 seconds (process running for 109.075)
+2025-03-13T18:23:23.492Z  INFO 1 --- [appi-log] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-03-13T18:58:47.262Z  INFO 1 --- [appi-log] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-13T18:58:48.907Z  INFO 1 --- [appi-log] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-13T18:58:49.363Z  INFO 1 --- [appi-log] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-13T18:58:49.591Z  INFO 1 --- [appi-log] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-13T18:58:49.844Z  INFO 1 --- [appi-log] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-03-13T19:01:17.389Z  INFO 1 --- [appi-log] [main] fr.example.appilog.AppiLogApplication    : Starting AppiLogApplication v1.0.0 using Java 17.0.14 with PID 1 (/opt/appi-log.jar started by root in /opt)
+2025-03-13T19:01:17.399Z  INFO 1 --- [appi-log] [main] fr.example.appilog.AppiLogApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-03-13T19:01:40.646Z  INFO 1 --- [appi-log] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-13T19:01:40.917Z  INFO 1 --- [appi-log] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 108 ms. Found 0 JPA repository interfaces.
+2025-03-13T19:01:47.964Z  INFO 1 --- [appi-log] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-13T19:01:48.070Z  INFO 1 --- [appi-log] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-13T19:01:48.081Z  INFO 1 --- [appi-log] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-13T19:01:48.269Z  INFO 1 --- [appi-log] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-13T19:01:48.291Z  INFO 1 --- [appi-log] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 30002 ms
+2025-03-13T19:01:50.614Z  INFO 1 --- [appi-log] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-13T19:01:54.081Z  INFO 1 --- [appi-log] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@58833798
+2025-03-13T19:01:54.089Z  INFO 1 --- [appi-log] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-13T19:01:54.435Z  INFO 1 --- [appi-log] [main] org.flywaydb.core.FlywayExecutor         : Database: jdbc:postgresql://appi-log-db:5432/postgres (PostgreSQL 15.12)
+2025-03-13T19:01:55.027Z  INFO 1 --- [appi-log] [main] o.f.core.internal.command.DbValidate     : Successfully validated 0 migrations (execution time 00:00.162s)
+2025-03-13T19:01:55.063Z  WARN 1 --- [appi-log] [main] o.f.core.internal.command.DbValidate     : No migrations found. Are your locations set up correctly?
+2025-03-13T19:01:55.294Z  INFO 1 --- [appi-log] [main] o.f.core.internal.command.DbMigrate      : Current version of schema "public": << Empty Schema >>
+2025-03-13T19:01:55.330Z  INFO 1 --- [appi-log] [main] o.f.core.internal.command.DbMigrate      : Schema "public" is up to date. No migration necessary.
+2025-03-13T19:01:56.618Z  INFO 1 --- [appi-log] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-13T19:01:58.459Z  INFO 1 --- [appi-log] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-13T19:01:58.958Z  INFO 1 --- [appi-log] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-13T19:02:02.312Z  INFO 1 --- [appi-log] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-13T19:02:02.911Z  WARN 1 --- [appi-log] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-13T19:02:03.056Z  INFO 1 --- [appi-log] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 15.12
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-13T19:02:06.125Z  INFO 1 --- [appi-log] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-13T19:02:06.173Z  INFO 1 --- [appi-log] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-13T19:02:06.480Z  WARN 1 --- [appi-log] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-13T19:02:10.239Z  INFO 1 --- [appi-log] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-03-13T19:02:10.372Z  INFO 1 --- [appi-log] [main] fr.example.appilog.AppiLogApplication    : Started AppiLogApplication in 57.347 seconds (process running for 63.283)
+2025-03-13T19:15:29.377Z  INFO 1 --- [appi-log] [main] fr.example.appilog.AppiLogApplication    : Starting AppiLogApplication v1.0.0 using Java 17.0.14 with PID 1 (/opt/appi-log.jar started by root in /opt)
+2025-03-13T19:15:29.475Z  INFO 1 --- [appi-log] [main] fr.example.appilog.AppiLogApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-03-13T19:16:11.372Z  INFO 1 --- [appi-log] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-13T19:16:11.682Z  INFO 1 --- [appi-log] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 116 ms. Found 0 JPA repository interfaces.
+2025-03-13T19:16:28.295Z  INFO 1 --- [appi-log] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-13T19:16:32.989Z  INFO 1 --- [appi-log] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-13T19:16:32.994Z  INFO 1 --- [appi-log] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-13T19:16:33.292Z  INFO 1 --- [appi-log] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-13T19:16:33.299Z  INFO 1 --- [appi-log] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 59889 ms
+2025-03-13T19:16:38.138Z  INFO 1 --- [appi-log] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-13T19:16:43.628Z  INFO 1 --- [appi-log] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@16d07cf3
+2025-03-13T19:16:43.641Z  INFO 1 --- [appi-log] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-13T19:16:43.980Z  INFO 1 --- [appi-log] [main] org.flywaydb.core.FlywayExecutor         : Database: jdbc:postgresql://appi-log-db:5432/postgres (PostgreSQL 15.12)
+2025-03-13T19:16:45.158Z  INFO 1 --- [appi-log] [main] o.f.core.internal.command.DbValidate     : Successfully validated 0 migrations (execution time 00:00.454s)
+2025-03-13T19:16:45.163Z  WARN 1 --- [appi-log] [main] o.f.core.internal.command.DbValidate     : No migrations found. Are your locations set up correctly?
+2025-03-13T19:16:45.521Z  INFO 1 --- [appi-log] [main] o.f.core.internal.command.DbMigrate      : Current version of schema "public": << Empty Schema >>
+2025-03-13T19:16:45.715Z  INFO 1 --- [appi-log] [main] o.f.core.internal.command.DbMigrate      : Schema "public" is up to date. No migration necessary.
+2025-03-13T19:16:48.109Z  INFO 1 --- [appi-log] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-13T19:16:50.683Z  INFO 1 --- [appi-log] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-13T19:16:52.889Z  INFO 1 --- [appi-log] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-13T19:17:09.523Z  INFO 1 --- [appi-log] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-13T19:17:09.941Z  WARN 1 --- [appi-log] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-13T19:17:10.050Z  INFO 1 --- [appi-log] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 15.12
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-13T19:17:13.287Z  INFO 1 --- [appi-log] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-13T19:17:13.309Z  INFO 1 --- [appi-log] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-13T19:17:13.930Z  WARN 1 --- [appi-log] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-13T19:17:19.247Z  INFO 1 --- [appi-log] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-03-13T19:17:20.071Z  INFO 1 --- [appi-log] [main] fr.example.appilog.AppiLogApplication    : Started AppiLogApplication in 124.061 seconds (process running for 150.555)
+2025-03-13T19:21:16.001Z  INFO 1 --- [appi-log] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-13T19:21:18.791Z  INFO 1 --- [appi-log] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-13T19:21:19.233Z  INFO 1 --- [appi-log] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-13T19:21:19.472Z  INFO 1 --- [appi-log] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-13T19:22:55.052Z  INFO 1 --- [appi-log] [main] fr.example.appilog.AppiLogApplication    : Starting AppiLogApplication v1.0.0 using Java 17.0.14 with PID 1 (/opt/appi-log.jar started by root in /opt)
+2025-03-13T19:22:55.079Z  INFO 1 --- [appi-log] [main] fr.example.appilog.AppiLogApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-03-13T19:23:07.554Z  INFO 1 --- [appi-log] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-13T19:23:08.326Z  INFO 1 --- [appi-log] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 336 ms. Found 0 JPA repository interfaces.
+2025-03-13T19:23:30.751Z  INFO 1 --- [appi-log] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-13T19:23:31.382Z  INFO 1 --- [appi-log] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-13T19:23:31.392Z  INFO 1 --- [appi-log] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-13T19:23:33.744Z  INFO 1 --- [appi-log] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-13T19:23:33.758Z  INFO 1 --- [appi-log] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 37834 ms
+2025-03-13T19:23:59.527Z  INFO 1 --- [appi-log] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-13T19:24:20.867Z  INFO 1 --- [appi-log] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@16d07cf3
+2025-03-13T19:24:20.946Z  INFO 1 --- [appi-log] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-13T19:24:24.709Z  INFO 1 --- [appi-log] [main] org.flywaydb.core.FlywayExecutor         : Database: jdbc:postgresql://appi-log-db:5432/postgres (PostgreSQL 15.12)
+2025-03-13T19:24:27.012Z  INFO 1 --- [appi-log] [main] o.f.core.internal.command.DbValidate     : Successfully validated 0 migrations (execution time 00:00.715s)
+2025-03-13T19:24:27.025Z  WARN 1 --- [appi-log] [main] o.f.core.internal.command.DbValidate     : No migrations found. Are your locations set up correctly?
+2025-03-13T19:24:27.390Z  INFO 1 --- [appi-log] [main] o.f.core.internal.command.DbMigrate      : Current version of schema "public": << Empty Schema >>
+2025-03-13T19:24:27.588Z  INFO 1 --- [appi-log] [main] o.f.core.internal.command.DbMigrate      : Schema "public" is up to date. No migration necessary.
+2025-03-13T19:24:53.527Z  INFO 1 --- [appi-log] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-13T19:24:56.716Z  INFO 1 --- [appi-log] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-13T19:24:57.674Z  INFO 1 --- [appi-log] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-13T19:25:06.978Z  INFO 1 --- [appi-log] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-13T19:25:07.816Z  WARN 1 --- [appi-log] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-13T19:25:07.958Z  INFO 1 --- [appi-log] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 15.12
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-13T19:25:15.440Z  INFO 1 --- [appi-log] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-13T19:25:15.527Z  INFO 1 --- [appi-log] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-13T19:25:17.594Z  WARN 1 --- [appi-log] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-13T19:25:27.702Z  INFO 1 --- [appi-log] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-03-13T19:25:27.969Z  INFO 1 --- [appi-log] [main] fr.example.appilog.AppiLogApplication    : Started AppiLogApplication in 169.974 seconds (process running for 193.547)
+2025-03-13T19:25:27.969Z  INFO 1 --- [appi-log] [main] fr.example.appilog.AppiLogApplication    : Started AppiLogApplication in 169.974 seconds (process running for 193.547)
+2025-03-13T20:30:56.372Z  INFO 1 --- [appi-log] [main] fr.example.appilog.AppiLogApplication    : Starting AppiLogApplication v1.0.0 using Java 17.0.14 with PID 1 (/opt/appi-log.jar started by root in /opt)
+2025-03-13T20:30:56.402Z  INFO 1 --- [appi-log] [main] fr.example.appilog.AppiLogApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-03-13T20:31:16.455Z  INFO 1 --- [appi-log] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-13T20:31:18.316Z  INFO 1 --- [appi-log] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1112 ms. Found 0 JPA repository interfaces.
+2025-03-13T20:31:37.643Z  INFO 1 --- [appi-log] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-13T20:31:38.181Z  INFO 1 --- [appi-log] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-13T20:31:38.349Z  INFO 1 --- [appi-log] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-13T20:31:43.711Z  INFO 1 --- [appi-log] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-13T20:31:43.715Z  INFO 1 --- [appi-log] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 46813 ms
+2025-03-13T20:31:51.146Z  INFO 1 --- [appi-log] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-13T20:31:57.949Z  INFO 1 --- [appi-log] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3f8dfe74
+2025-03-13T20:31:57.955Z  INFO 1 --- [appi-log] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-13T20:31:59.954Z  INFO 1 --- [appi-log] [main] org.flywaydb.core.FlywayExecutor         : Database: jdbc:postgresql://appi-log-db:5432/postgres (PostgreSQL 15.12)
+2025-03-13T20:32:00.744Z  INFO 1 --- [appi-log] [main] o.f.core.internal.command.DbValidate     : Successfully validated 0 migrations (execution time 00:00.195s)
+2025-03-13T20:32:00.747Z  WARN 1 --- [appi-log] [main] o.f.core.internal.command.DbValidate     : No migrations found. Are your locations set up correctly?
+2025-03-13T20:32:00.828Z  INFO 1 --- [appi-log] [main] o.f.core.internal.command.DbMigrate      : Current version of schema "public": << Empty Schema >>
+2025-03-13T20:32:00.884Z  INFO 1 --- [appi-log] [main] o.f.core.internal.command.DbMigrate      : Schema "public" is up to date. No migration necessary.
+2025-03-13T20:32:05.256Z  INFO 1 --- [appi-log] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-13T20:32:06.380Z  INFO 1 --- [appi-log] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-13T20:32:10.738Z  INFO 1 --- [appi-log] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-13T20:32:20.734Z  INFO 1 --- [appi-log] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-13T20:32:22.030Z  WARN 1 --- [appi-log] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-13T20:32:22.165Z  INFO 1 --- [appi-log] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 15.12
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-13T20:32:25.732Z  INFO 1 --- [appi-log] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-13T20:32:25.761Z  INFO 1 --- [appi-log] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-13T20:32:26.779Z  WARN 1 --- [appi-log] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-13T20:32:34.555Z  INFO 1 --- [appi-log] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-03-13T20:32:34.682Z  INFO 1 --- [appi-log] [main] fr.example.appilog.AppiLogApplication    : Started AppiLogApplication in 108.294 seconds (process running for 123.13)
+2025-03-13T23:36:21.134Z  INFO 1 --- [appi-log] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-13T23:36:21.890Z  INFO 1 --- [appi-log] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-13T23:36:22.319Z  INFO 1 --- [appi-log] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-13T23:36:22.643Z  INFO 1 --- [appi-log] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-13T23:36:22.886Z  INFO 1 --- [appi-log] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-03-13T23:37:27.919Z  INFO 1 --- [appi-log] [main] fr.example.appilog.AppiLogApplication    : Starting AppiLogApplication v1.0.0 using Java 17.0.14 with PID 1 (/opt/appi-log.jar started by root in /opt)
+2025-03-13T23:37:27.942Z  INFO 1 --- [appi-log] [main] fr.example.appilog.AppiLogApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-03-13T23:37:42.905Z  INFO 1 --- [appi-log] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-13T23:37:43.123Z  INFO 1 --- [appi-log] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 99 ms. Found 0 JPA repository interfaces.
+2025-03-13T23:37:47.510Z  INFO 1 --- [appi-log] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-13T23:37:47.673Z  INFO 1 --- [appi-log] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-13T23:37:47.676Z  INFO 1 --- [appi-log] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-13T23:37:47.915Z  INFO 1 --- [appi-log] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-13T23:37:47.922Z  INFO 1 --- [appi-log] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 19125 ms
+2025-03-13T23:37:50.039Z  INFO 1 --- [appi-log] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-13T23:37:53.322Z  INFO 1 --- [appi-log] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@16d07cf3
+2025-03-13T23:37:53.348Z  INFO 1 --- [appi-log] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-13T23:37:53.691Z  INFO 1 --- [appi-log] [main] org.flywaydb.core.FlywayExecutor         : Database: jdbc:postgresql://appi-log-db:5432/postgres (PostgreSQL 15.12)
+2025-03-13T23:37:54.264Z  INFO 1 --- [appi-log] [main] o.f.core.internal.command.DbValidate     : Successfully validated 0 migrations (execution time 00:00.146s)
+2025-03-13T23:37:54.272Z  WARN 1 --- [appi-log] [main] o.f.core.internal.command.DbValidate     : No migrations found. Are your locations set up correctly?
+2025-03-13T23:37:54.393Z  INFO 1 --- [appi-log] [main] o.f.core.internal.command.DbMigrate      : Current version of schema "public": << Empty Schema >>
+2025-03-13T23:37:54.432Z  INFO 1 --- [appi-log] [main] o.f.core.internal.command.DbMigrate      : Schema "public" is up to date. No migration necessary.
+2025-03-13T23:37:55.599Z  INFO 1 --- [appi-log] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-13T23:37:56.278Z  INFO 1 --- [appi-log] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-13T23:37:56.739Z  INFO 1 --- [appi-log] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-13T23:38:00.066Z  INFO 1 --- [appi-log] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-13T23:38:01.160Z  WARN 1 --- [appi-log] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-13T23:38:01.292Z  INFO 1 --- [appi-log] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 15.12
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-13T23:38:05.232Z  INFO 1 --- [appi-log] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-13T23:38:05.261Z  INFO 1 --- [appi-log] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-13T23:38:05.580Z  WARN 1 --- [appi-log] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-13T23:38:09.641Z  INFO 1 --- [appi-log] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-03-13T23:38:09.744Z  INFO 1 --- [appi-log] [main] fr.example.appilog.AppiLogApplication    : Started AppiLogApplication in 46.03 seconds (process running for 51.785)
